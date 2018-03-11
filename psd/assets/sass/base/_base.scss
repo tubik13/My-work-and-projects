@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+a{
+  text-decoration: none !important;
+  transition: .3s;
+}
+
+
+body {
+  font-family: $Helvetica;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $fontSize16;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  transition: .3s;
+}
+
+/* Header */
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  min-height: calc(100vh - 130px);
+  height: auto !important;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.tAlign, .cAlign { width: 100%; }
+.tAlign { display: table; }
+.cAlign { display: table-cell; vertical-align: middle; }
+
+.thumb {
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2, h3, h4, h5,h6 {
+  font-family: $RalewaySemiBold;
+}

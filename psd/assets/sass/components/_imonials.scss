@@ -1,0 +1,65 @@
+#imonials {
+  padding-top: 60px;
+  padding-bottom: 25px;
+
+  .review {
+    float: none !important;
+    margin-bottom: 15px;
+
+    blockquote {
+      font-family: $HelveticaNueItalic;
+      font-size: $fontSize18;
+      color: $greyDark;
+      text-align: center;
+    }
+  }
+
+  .peoples {
+    text-align: center;
+
+    h4 {
+      font-family: $RalewayBold;
+      font-size: $fontSize18;
+      margin-bottom: 27px;
+    }
+
+    .peoples-reviews {
+      margin-bottom: 0;
+
+      li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+
+        &:not(:first-child) {
+          margin-left: 1px;
+        }
+
+        .thumb {
+          width: 50px;
+          height: 50px;
+        }
+
+        &:before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: $green60;
+          visibility: hidden;
+          opacity: 0;
+          transition: ease .3s;
+          z-index: 1;
+        }
+
+        &:hover:before {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

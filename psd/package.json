@@ -1,0 +1,35 @@
+{
+  "name": "icekart",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ticket.application.js build.app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-es2015": "*",
+    "css-loader": "*",
+    "es6-promise": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-header-comment": "^0.2.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-scss": "^1.4.0",
+    "vue": "*",
+    "vue-html-loader": "*",
+    "vue-loader": "*",
+    "vue-resource": "*",
+    "vue-style-loader": "*",
+    "webpack": "*"
+  },
+  "dependencies": {
+    "vee-validate": "^2.0.0-rc.23"
+  },
+  "description": ""
+}

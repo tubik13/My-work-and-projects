@@ -1,0 +1,28 @@
+#footer {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background: $grey;
+
+  ul {
+    margin-bottom: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-bottom: 10px;
+
+      &:not(:first-child) {
+        margin-left: 38px;
+      }
+
+      a {
+        color: $greyDark;
+        transition: ease .3s;
+      }
+
+      &.current a, &:hover a {
+        color: $black;
+      }
+    }
+  }
+}

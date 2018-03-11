@@ -1,0 +1,61 @@
+.green-line {
+  height: 10px;
+  background: $green;
+}
+
+#hero {
+  height: calc(100vh - 10px);
+  background: url($imgDir + "hero.jpg") no-repeat;
+
+  .tAlign {
+    height: calc(100vh - 10px);
+  }
+
+  .logo {
+    margin-bottom: 50px;
+    font-family: $Pacifico;
+    font-size: $fontSize60;
+    color: $white;
+
+    span {
+      color: $green;
+    }
+  }
+
+  p {
+    font-size: $fontSize24;
+    color: $white;
+  }
+
+  .devices-app {
+
+    li {
+      display: inline-block;
+
+      &:not(:first-child) {
+        margin-left: 11px;
+      }
+
+      a {
+        width: 52px;
+        height: 52px;
+        display: block;
+        border-radius: 50%;
+        color: $white50;
+        text-align: center;
+        line-height: 52px;
+        background: $black50;
+        transition: ease .3s;
+
+        i {
+          font-size: 28px;
+        }
+
+        &:hover {
+          color: $white;
+          background: $green;
+        }
+      }
+    }
+  }
+}

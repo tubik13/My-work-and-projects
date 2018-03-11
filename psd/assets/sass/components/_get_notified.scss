@@ -1,0 +1,76 @@
+#get-notified {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: $grey;
+
+  .left {
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: $fontSize22;
+      color: $black;
+    }
+
+    p {
+      margin-bottom: 0;
+      color: $greyDark;
+    }
+
+    form {
+      overflow: hidden;
+      margin: 30px 0;
+
+      input {
+        height: 56px;
+        display: block;
+        float: left;
+      }
+
+      input[type="text"] {
+        width: calc(100% - 140px);
+        padding: 0 25px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid $InputBorderColor;
+        border-right: none;
+        font-size: $fontSize18;
+
+
+        &::-webkit-input-placeholder { color: $greyDark; }
+        &::-moz-placeholder { color: $greyDark; }
+        &:-ms-input-placeholdcolor { color: $greyDark; }
+        &:-moz-placeholder { color: $greyDark; }
+      }
+
+      input[type="submit"] {
+        width: 140px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-color: $green;
+        font-family: $RalewayBold;
+        font-size: $fontSize22;
+        color: $white;
+        background: $green;
+        transition: ease .3s;
+
+        &:hover {
+          background: $hoverSubmit;
+        }
+      }
+    }
+  }
+
+  .right {
+
+    .iframe-wrapper {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 305px;
+      display: block;
+    }
+  }
+}

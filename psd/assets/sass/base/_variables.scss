@@ -1,0 +1,37 @@
+/* Main var */
+
+$imgDir: "../images/";
+
+/* Fonts var */
+
+$fontAwesome: FontAwesome;
+$Helvetica: 'HelveticaNue', Arial, sans-serif;
+$HelveticaNueItalic: 'HelveticaNeue-Italic', Arial, sans-serif;
+$HelveticaNueBoldItalic: 'HelveticaNeue-BoldItalic', Arial, sans-serif;
+$HelveticaNueMedium: 'HelveticaNeue-Medium', Arial, sans-serif;
+$Pacifico: 'Pacifico', Arial, sans-serif;
+$RalewayBold: 'Raleway-Bold', Arial, sans-serif;
+$RalewaySemiBold: 'Raleway-SemiBold', Arial, sans-serif;
+
+// Fonts sizes
+
+$fontSize16: 16px;
+$fontSize18: 1.125em;
+$fontSize22: 1.375em;
+$fontSize24: 1.5em;
+$fontSize60: 3.75em;
+
+// Colors
+
+$black: #222222;
+$black50: rgba(0,0,0,.5);
+$white: #fff;
+$white50: rgba(255,255,255,.5);
+$grey: #e3e3e3;
+$grayWhitest: #d4d4d4;
+$greyDark: #848484;
+$InputBorderColor: #c8c8c8;
+$green: #2ecc71;
+$green60: rgba(46,204,113,.6);
+$hoverSubmit: $green * .8;
+

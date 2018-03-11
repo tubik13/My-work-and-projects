@@ -1,0 +1,44 @@
+#get-in-touch {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+
+  h3 {
+    font-family: $RalewaySemiBold;
+    font-size: $fontSize24;
+    color: $black;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: $greyDark;
+  }
+
+  .social-networks {
+    margin-top: 2px;
+    margin-bottom: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        width: 34px;
+        height: 34px;
+        display: block;
+        border-radius: 50%;
+        line-height: 34px;
+        background: $grayWhitest;
+        transition: ease .3s;
+
+        i {
+          font-size: 20px;
+          color: $white;
+        }
+
+        &:hover {
+          background: $green;
+        }
+      }
+    }
+  }
+}
